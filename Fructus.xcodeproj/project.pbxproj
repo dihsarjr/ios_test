@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C41A627273AC0F900647B8B /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C41A626273AC0F900647B8B /* FruitCardView.swift */; };
 		5CCDFA0B2735877200032B68 /* FructusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDFA0A2735877200032B68 /* FructusApp.swift */; };
 		5CCDFA0D2735877200032B68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDFA0C2735877200032B68 /* ContentView.swift */; };
 		5CCDFA0F2735877500032B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CCDFA0E2735877500032B68 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C41A626273AC0F900647B8B /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		5CCDFA072735877200032B68 /* Fructus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fructus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CCDFA0A2735877200032B68 /* FructusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FructusApp.swift; sourceTree = "<group>"; };
 		5CCDFA0C2735877200032B68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C41A625273AC0B100647B8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C41A626273AC0F900647B8B /* FruitCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		5CCDF9FE2735877200032B68 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		5CCDFA092735877200032B68 /* Fructus */ = {
 			isa = PBXGroup;
 			children = (
+				5C41A625273AC0B100647B8B /* View */,
 				5CCDFA1827358C0D00032B68 /* App */,
 				5CCDFA0E2735877500032B68 /* Assets.xcassets */,
 				5CCDFA102735877500032B68 /* Preview Content */,
@@ -145,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C41A627273AC0F900647B8B /* FruitCardView.swift in Sources */,
 				5CCDFA0D2735877200032B68 /* ContentView.swift in Sources */,
 				5CCDFA0B2735877200032B68 /* FructusApp.swift in Sources */,
 			);
