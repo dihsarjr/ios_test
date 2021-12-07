@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct StartButtonView: View {
+    @AppStorage("isOnBoarding") var isOnBoarding:Bool?
     var body: some View {
-        Button(action:{print("hi")}){HStack(spacing:8) {
+        Button(action:{isOnBoarding = false}){HStack(spacing:8) {
             Text("Start")
             Image(systemName: "arrow.right.circle").imageScale(.large)
         }.padding(.horizontal,16)

@@ -15,6 +15,7 @@ struct FruitCardView: View {
     //MARK : PROPERTY
     var fruit:FruitModel
     @State private var isAnimating:Bool = false
+
     //MARK : BODY
     var body: some View {
         ZStack {
