@@ -9,7 +9,7 @@ import SwiftUI
 
 struct OnboardingView: View {
     
-    var fruits: [FruitModel] = frutData
+    var fruits: [FruitModel] = fruitData
     
     
     var body: some View {

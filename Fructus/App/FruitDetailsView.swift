@@ -27,6 +27,7 @@ struct FruitDetailsView: View {
                         Text(fruit.headline)
                             .font(.headline)
                             .multilineTextAlignment(.leading)
+                        FruitNutrientsView(fruit: fruit)
                         //LEARN MORE
                         Text("Learn More About \(fruit.title)".uppercased())
                             .fontWeight(.bold)
@@ -45,6 +46,6 @@ struct FruitDetailsView: View {
 
 struct FruitDetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        FruitDetailsView(fruit: frutData[0]).previewDevice("iPhone 13")
+        FruitDetailsView(fruit: fruitData[0]).previewDevice("iPhone 13")
     }
 }
